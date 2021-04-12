@@ -39,6 +39,9 @@ SCROT_DELAY=1
 SCROT_QUALITY=100
 
 #------------------------------------------------
+function scrot_stack() {
+    scrot --stack -d "$SCROT_DELAY" -q "$SCROT_QUALITY" "$TMPFILE"_scrotall"$n".png
+}
 
 function scrot_simple() {
     scrot -d "$SCROT_DELAY" -q "$SCROT_QUALITY" "$TMPFILE"_scrotall"$n".png
