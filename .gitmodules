@@ -1,0 +1,3 @@
+[submodule "capdesktop"]
+	path = capdesktop
+	url = https://github.com/daltomi/capdesktop.git
