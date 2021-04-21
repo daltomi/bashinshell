@@ -1,3 +1,6 @@
 [submodule "capdesktop"]
 	path = capdesktop
 	url = https://github.com/daltomi/capdesktop.git
+[submodule "xscr_video"]
+	path = xscr_video
+	url = https://github.com/daltomi/xscr_video.git
